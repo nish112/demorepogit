@@ -1,0 +1,10 @@
+name: Demoworkflow
+on: workflow_dispatch
+jobs:
+  demojob:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Say hi
+      run: echo "Hi"
+    - name: Say welcome to the world of github action
+      run: echo "welcome to the world of github action"
