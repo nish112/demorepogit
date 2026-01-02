@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hi
-        run: echo "Hi"
+        run: !
+          echo "Hi"
+          echo "Hello"
       - name: Say welcome to the world of github action
         run: echo "welcome to the world of github action"
